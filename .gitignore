@@ -1,0 +1,11 @@
+# Project exclude paths
+/spring01/target/
+/spring02/target/
+/spring03/target/
+/spring04-anotation/target/
+/spring05-multi-xml/target/
+/spring06-proxy/target/
+/spring07-aop/target/
+/spring08-aop-annotation/target/
+/spring09-aop-tx/target/
+/spring10-aop-tx-xml-annotation/target/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring09-aop-tx" />
+        <module name="springmvc01-start" />
+        <module name="spring06-proxy" />
+        <module name="spring07-aop" />
+        <module name="spring03" />
+        <module name="springmvc02" />
+        <module name="spring10-aop-tx-xml-annotation" />
+        <module name="spring04-anotation" />
+        <module name="spring05-multi-xml" />
+        <module name="spring01" />
+        <module name="spring08-aop-annotation" />
+        <module name="spring02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring04-config" target="1.8" />
+      <module name="spring05-config" target="1.8" />
+      <module name="spring10-aop-tx-xml" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

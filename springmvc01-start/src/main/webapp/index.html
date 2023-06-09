@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>入门案例</title>
+    <script type="text/javascript" src="js/axios-0.18.0.js"></script>
+</head>
+<body>
+    <h1>第一个spirngmvc</h1>
+    <a href="/hello">点击连接有惊喜</a><br/>
+    <a href="/param1?name=tom&age=18">简单参数get</a><br/>
+    <form method="post" action="/param1">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        <input type="submit" value="简单参数post">
+    </form>
+    <br/>
+    <form method="post" action="/param2">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        生日：<input type="text" name="birthday"><br/>
+        <input type="submit" value="实体类绑定">
+    </form>
+    <form method="post" action="/param3">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        生日：<input type="text" name="birthday"><br/>
+        省份：<select name="address.provinceName">
+                <option value="0">请选择</option>
+                <option value="河北">河北</option>
+                <option value="河南">河南</option>
+                <option value="山东">山东</option>
+            </select><br/>
+        城市：<select name="address.cityName">
+                <option value="0">请选择</option>
+                <option value="保定">保定</option>
+                <option value="石家庄">石家庄</option>
+                <option value="邯郸">邯郸</option>
+            </select><br/>
+        <input type="submit" value="实体类嵌套绑定">
+    </form>
+
+    <form method="post" action="/param4">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        生日：<input type="text" name="birthday"><br/>
+        省份：<select name="list[0]">
+        <option value="0">请选择</option>
+        <option value="河北">河北</option>
+        <option value="河南">河南</option>
+        <option value="山东">山东</option>
+    </select><br/>
+        城市：<select name="list[1]">
+        <option value="0">请选择</option>
+        <option value="保定">保定</option>
+        <option value="石家庄">石家庄</option>
+        <option value="邯郸">邯郸</option>
+    </select><br/>
+        <input type="submit" value="复杂类型绑定">
+    </form>
+
+    <form method="post" action="/param5">
+        姓名：<input type="text" name="name"><br/>
+        年龄：<input type="text" name="age"><br/>
+        生日：<input type="text" name="birthday"><br/>
+        省份：<select name="map['省份']">
+        <option value="0">请选择</option>
+        <option value="河北">河北</option>
+        <option value="河南">河南</option>
+        <option value="山东">山东</option>
+    </select><br/>
+        城市：<select name="map['城市']">
+        <option value="0">请选择</option>
+        <option value="保定">保定</option>
+        <option value="石家庄">石家庄</option>
+        <option value="邯郸">邯郸</option>
+    </select><br/>
+        <input type="submit" value="复杂类型绑定">
+    </form>
+    <a id="testAjax" href="#">异步交互绑定简单类型参数get</a><br/>
+    <a id="testAjax2" href="#">异步交互绑定简单类型参数post</a><br/>
+    <a id="testAjax3" href="#">异步绑定json格式数据</a><br/>
+    <form action="/testimage" method="post" enctype="multipart/form-data">
+        图片：<input type="file" name="file"><br/>
+        <input type="submit" value="上传图片">
+    </form>
+
+    <br/>
+    <script>
+        document.querySelector("#testAjax").onclick = function(){
+            axios.get("/testAjax?name=和&age=18").then(function(resp){
+                alert(resp.data);
+            });
+        }
+
+        document.querySelector("#testAjax2").onclick = function(){
+            axios.post("/testAjax","name=呵呵&age=22").then(function(resp){
+                alert(resp.data);
+            })
+        }
+
+        document.querySelector("#testAjax3").onclick = function (){
+            axios.post("/testAjax2",{id:1,name:'呵呵',age:18,gender:'男'}).then(function (resp){
+                alert(resp.data);
+            })
+        }
+
+
+
+
+        // document.querySelector("#testAjax").onclick = function(){
+        //     axios.get("/testAjax?name=test&age=18").then(function(data){
+        //         alert(data.data);
+        //         console.log(data);
+        //     });
+        // }
+        //
+        //
+        // document.querySelector("#testAjax2").onclick = function (){
+        //     axios.post("/testAjax","name=隔壁老王&age=19").then(function(data){
+        //        alert(data.data);
+        //        console.log(data)
+        //     });
+        // }
+        //
+        // document.querySelector("#testAjax3").onclick = function (){
+        //     let stu={id:1,name:"test",age:18,gender:"male"};
+        //     axios.post("/testAjax2",stu).then(function(data){
+        //         alert(JSON.stringify(data.data));
+        //         console.log(data)
+        //     });
+        // }
+    </script>
+
+
+
+
+</body>
+</html>
