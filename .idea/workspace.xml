@@ -2,14 +2,233 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc02:war exploded" />
+      <artifact name="student-demo:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a64d4c5-860a-45eb-ae09-2c540cb77f50" name="Changes" comment="" />
+    <list default="true" id="4a64d4c5-860a-45eb-ae09-2c540cb77f50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jwt-demo/src/test/java/JwtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-start/src/main/java/com/longklxs/HelloQuartz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quartz-start/src/test/java/com/longklxs/QuartzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring/src/test/java/JedisPoolTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring/src/test/java/JedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-spring/src/test/java/SpringJedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot/src/main/java/com/longklxs/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot/src/test/java/com/longklxs/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot02/src/main/java/com/longklxs/RedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot02/src/main/java/com/longklxs/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-springboot02/src/test/java/com/longklxs/RedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/java/com/longklxs/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/UserApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/commons/Constant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/commons/ResultInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo-annotation/target/classes/com/longklxs/web/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/java/com/longklxs/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-data-redis-userdemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/main/java/com/longklxs/SpringQuartzJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/main/resources/quartz.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/test/java/com/longklxs/SpringQuartzBatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/test/java/com/longklxs/SpringQuartzDeleteJobTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/test/java/com/longklxs/SpringQuartzPauseAndResumeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-quartz-demo/src/test/java/com/longklxs/SpringQuartzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/src/main/java/com/longklxs/SpringApplicationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/src/main/java/com/longklxs/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/src/main/java/com/longklxs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-demo/src/test/java/com/longklxs/HelloTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/StudentApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/java/com/longklxs/web/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatis/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/java/com/longklxs/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/java/com/longklxs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/java/com/longklxs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/BatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/CRUDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/LambWrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/MybatisPlusAdvancedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-mybatisplus/src/test/java/com/longklxs/WrapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/longklxs/QuartzApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-quartz/src/main/java/com/longklxs/job/MyJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/UserApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/config/UserWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/java/com/longklxs/interceptor/MyInterceptorDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/resources/front/images/timg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/resources/static/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/main/resources/static/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot02/src/test/java/com/longklxs/UserControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc02/src/main/java/com/longklxs/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc02/src/main/java/com/longklxs/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/java/com/longklxs/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/webapp/WEB-INF/page/success.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/webapp/WEB-INF/page/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc03-jsp/src/main/webapp/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/SecurityDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/filter/JsonUsernamePasswordAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/java/com/longklxs/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/static/html/loginFail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/static/html/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/static/img/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-demo/src/main/resources/static/js/axios-0.20.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/SecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/java/com/longklxs/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/resources/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/resources/static/html/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/resources/static/img/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/main/resources/static/js/axios-0.20.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/test/java/MD5HashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/test/java/Md5Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-quickstart/src/test/java/com/longklxs/BCryptPasswordEncoderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/SpringSecurityRbac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/commons/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/pojo/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/pojo/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/web/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/java/com/longklxs/web/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/resources/static/html/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/resources/static/html/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/resources/static/img/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-rbac/src/main/resources/static/js/axios-0.20.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/java/com/longklxs/web/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/resources/com/longklxs/mapper/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/test/java/com/longklxs/test/AccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/test/java/com/longklxs/test/Test01Mybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/test/java/com/longklxs/test/Test03Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssm-demo/src/test/java/com/longklxs/test/Test03SpringMybatis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/commons/ResultInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/domain/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/java/com/longklxs/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/resources/application.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/resources/com/longklxs/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/resources/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student-demo/src/test/java/com/longklxs/StudentServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring02/src/test/java/com/longklxs/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring02/src/test/java/com/longklxs/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring04-anotation/src/test/java/com/longklxs/AccountServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring04-anotation/src/test/java/com/longklxs/AccountServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring05-multi-xml/src/main/java/com/longklxs/dao/impl/AccountDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring05-multi-xml/src/main/java/com/longklxs/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring05-multi-xml/src/main/java/com/longklxs/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring05-multi-xml/src/main/java/com/longklxs/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc01-start/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc01-start/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc02/src/main/java/com/longklxs/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc02/src/main/java/com/longklxs/domain/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +238,17 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="mybatis-config" />
+        <option value="mybatis-mapper" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -55,118 +279,113 @@
     <option name="vmOptions" value="-Darchetype=internal" />
   </component>
   <component name="ProjectId" id="2Qm8ZaLpL1yAclre5dGUoN3IXeP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/18281/Documents/note/千峰test2/spring/springmvc02/src/main/java/com/longklxs",
+    "last_opened_file_path": "C:/Users/18281/Documents/note/千峰test2/chatgpt-web-java-main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15179606",
-    "project.structure.side.proportion": "0.31849793",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
-    "spring.configuration.checksum": "52ecbc4ff7cc5680fae4681718ddc01a",
+    "project.structure.side.proportion": "0.32717392",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "641860e224b862887571f69502a32314",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springmvc02\src\main\java\com\longklxs" />
-      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springmvc01-start\src\main\webapp" />
-      <recent name="C:\Users\18281\Documents\note\千峰test2\spring" />
-      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\spring09-aop-tx\src\main\resources" />
-      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\spring05-multi-xml\src\main\resources" />
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\spring-quartz-demo\src\main\resources" />
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springsecurity-rbac\src\main\resources" />
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springsecurity-rbac\src\main\java\com\longklxs" />
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springsecurity-rbac\src\main\java\com\longklxs\pojo" />
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springsecurity-rbac\src\main\java\com\longklxs\mapper" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\18281\Documents\note\千峰test2\spring\springmvc03-jsp\src\main\webapp" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.longklxs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.longklxs.config" />
+      <recent name="com.longklxs.web.controller" />
       <recent name="com.longklxs" />
       <recent name="com.longklxs.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.springmvc02">
-    <configuration name="AOPTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring07-aop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longklxs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.longklxs" />
-      <option name="MAIN_CLASS_NAME" value="com.longklxs.AOPTest" />
-      <option name="METHOD_NAME" value="test01" />
+  <component name="RunManager" selected="JUnit.JwtTest.testParseJwt">
+    <configuration name="JwtTest.testClaims" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testClaims" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AOPXMLAnnotationTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring08-aop-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longklxs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.longklxs" />
-      <option name="MAIN_CLASS_NAME" value="com.longklxs.AOPXMLAnnotationTest" />
-      <option name="METHOD_NAME" value="test01" />
+    <configuration name="JwtTest.testCreateJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testCreateJwt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring10-aop-tx-xml-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longklxs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.longklxs" />
-      <option name="MAIN_CLASS_NAME" value="com.longklxs.TransferTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransferTest.Test01 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring10-aop-tx-xml-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.longklxs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.longklxs" />
-      <option name="MAIN_CLASS_NAME" value="com.longklxs.TransferTest" />
-      <option name="METHOD_NAME" value="Test01" />
+    <configuration name="JwtTest.testParseJwt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jwt-demo" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JwtTest" />
+      <option name="METHOD_NAME" value="testParseJwt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferTest.Test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring09-aop-tx" />
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot-quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.longklxs.QuartzApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.longklxs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.longklxs" />
-      <option name="MAIN_CLASS_NAME" value="com.longklxs.TransferTest" />
-      <option name="METHOD_NAME" value="Test01" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringSecurityRbac" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springsecurity-rbac" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.longklxs.SpringSecurityRbac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.longklxs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -348,22 +567,291 @@
         </option>
       </method>
     </configuration>
+    <configuration name="springmvc03-jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="springmvc03-jsp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="75059d0c-eebd-42bd-aab3-fb455c0bc4c1" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55704" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvc03-jsp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="ssm-demo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ssm-demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="e900b657-129f-408e-8647-98aedeb16ff7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58005" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ssm-demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="student-demo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="student-demo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="8e2c3fc1-8eaa-4b9e-9cc9-c0c923f21b97" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61805" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="student-demo:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.AOPTest.test01" />
-      <item itemvalue="JUnit.AOPXMLAnnotationTest.test01" />
-      <item itemvalue="JUnit.TransferTest" />
-      <item itemvalue="JUnit.TransferTest.Test01" />
-      <item itemvalue="JUnit.TransferTest.Test01 (1)" />
+      <item itemvalue="JUnit.JwtTest.testClaims" />
+      <item itemvalue="JUnit.JwtTest.testCreateJwt" />
+      <item itemvalue="JUnit.JwtTest.testParseJwt" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
+      <item itemvalue="Spring Boot.SpringSecurityRbac" />
+      <item itemvalue="Tomcat Server.student-demo" />
+      <item itemvalue="Tomcat Server.ssm-demo" />
       <item itemvalue="Tomcat Server.springmvc01" />
       <item itemvalue="Tomcat Server.springmvc02" />
+      <item itemvalue="Tomcat Server.springmvc03-jsp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TransferTest.Test01 (1)" />
-        <item itemvalue="JUnit.TransferTest.Test01" />
-        <item itemvalue="JUnit.TransferTest" />
-        <item itemvalue="JUnit.AOPTest.test01" />
-        <item itemvalue="JUnit.AOPXMLAnnotationTest.test01" />
+        <item itemvalue="JUnit.JwtTest.testParseJwt" />
+        <item itemvalue="JUnit.JwtTest.testClaims" />
+        <item itemvalue="JUnit.JwtTest.testCreateJwt" />
+        <item itemvalue="Spring Boot.SpringSecurityRbac" />
+        <item itemvalue="Spring Boot.QuartzApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -386,11 +874,64 @@
       <workItem from="1686102958913" duration="5774000" />
       <workItem from="1686116844144" duration="6920000" />
       <workItem from="1686182175564" duration="20168000" />
-      <workItem from="1686267429032" duration="8979000" />
+      <workItem from="1686267429032" duration="12125000" />
+      <workItem from="1686460976481" duration="67000" />
+      <workItem from="1686526816522" duration="1945000" />
+      <workItem from="1686532339781" duration="22656000" />
+      <workItem from="1686619299808" duration="22407000" />
+      <workItem from="1686700354567" duration="11431000" />
+      <workItem from="1686742190327" duration="603000" />
+      <workItem from="1686747700788" duration="12000" />
+      <workItem from="1686786381914" duration="5310000" />
+      <workItem from="1686813061034" duration="1523000" />
+      <workItem from="1686815614176" duration="8154000" />
+      <workItem from="1686876921221" duration="10402000" />
+      <workItem from="1687140285595" duration="18000" />
+      <workItem from="1687140443119" duration="2215000" />
+      <workItem from="1687220927179" duration="588000" />
+      <workItem from="1687227900125" duration="2469000" />
+      <workItem from="1687247554264" duration="43000" />
+      <workItem from="1687349704397" duration="633000" />
+      <workItem from="1687403366928" duration="7000" />
+      <workItem from="1687418268222" duration="137000" />
+      <workItem from="1687421521639" duration="966000" />
+      <workItem from="1687444790606" duration="113000" />
+      <workItem from="1687658814926" duration="27063000" />
+      <workItem from="1687739769655" duration="12595000" />
+      <workItem from="1687848252827" duration="14000" />
+      <workItem from="1687876617238" duration="111000" />
+      <workItem from="1687935495981" duration="113000" />
+      <workItem from="1688091350929" duration="4706000" />
+      <workItem from="1688455528327" duration="911000" />
+      <workItem from="1688797458923" duration="117000" />
+      <workItem from="1688819771114" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.LinkedList" memberName="size" />
+        <PinnedItemInfo parentTag="java.util.LinkedList" memberName="first" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

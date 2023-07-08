@@ -19,6 +19,26 @@
         <module>spring08-aop-annotation</module>
         <module>spring09-aop-tx</module>
         <module>spring10-aop-tx-xml-annotation</module>
+        <module>springmvc01-start</module>
+        <module>springmvc02</module>
+        <module>springmvc03-jsp</module>
+        <module>ssm-demo</module>
+        <module>student-demo</module>
+        <module>springboot-demo</module>
+        <module>springboot02</module>
+        <module>springboot-mybatis</module>
+        <module>springboot-mybatisplus</module>
+        <module>redis-spring</module>
+        <module>redis-springboot</module>
+        <module>redis-springboot02</module>
+        <module>spring-data-redis-userdemo</module>
+        <module>spring-data-redis-userdemo-annotation</module>
+        <module>springsecurity-quickstart</module>
+        <module>springsecurity-demo</module>
+        <module>springsecurity-rbac</module>
+        <module>spring-quartz-demo</module>
+        <module>quartz-start</module>
+        <module>jwt-demo</module>
     </modules>
 
     <properties>

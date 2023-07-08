@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: hello
+
+user:
+  name: 张三
+  sex: 男
+

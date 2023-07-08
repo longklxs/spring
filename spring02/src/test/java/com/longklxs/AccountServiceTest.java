@@ -2,7 +2,6 @@ package com.longklxs;
 
 import com.longklxs.domain.Account;
 import com.longklxs.service.AccountService;
-import com.longklxs.service.impl.AccountServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

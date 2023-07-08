@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="jobDetailFactoryBean" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="name" value="myJob"></property>
+        <property name="group" value="group1"></property>
+        <property name="jobClass" value="com.longklxs.SpringQuartzJob"></property>
+    </bean>
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="name" value="trigger1"></property>
+        <property name="group" value="triggerGroup1"></property>
+        <property name="jobDetail" ref="jobDetailFactoryBean"></property>
+        <property name="cronExpression" value="* * * * * ?"></property>
+    </bean>
+    <bean id="scheduled" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"></ref>
+            </list>
+        </property>
+        <property name="configLocation" value="classpath:quartz.properties"></property>
+    </bean>
+</beans>

@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "user",
+      "type": "com.longklxs.domain.User",
+      "sourceType": "com.longklxs.domain.User"
+    }
+  ],
+  "properties": [
+    {
+      "name": "user.name",
+      "type": "java.lang.String",
+      "sourceType": "com.longklxs.domain.User"
+    },
+    {
+      "name": "user.sex",
+      "type": "java.lang.String",
+      "sourceType": "com.longklxs.domain.User"
+    }
+  ],
+  "hints": []
+}

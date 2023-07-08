@@ -7,24 +7,54 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring09-aop-tx" />
-        <module name="springmvc01-start" />
-        <module name="spring06-proxy" />
         <module name="spring07-aop" />
-        <module name="spring03" />
-        <module name="springmvc02" />
+        <module name="springboot-mybatisplus" />
+        <module name="redis-springboot" />
+        <module name="spring08-aop-annotation" />
+        <module name="redis-spring" />
+        <module name="springsecurity-rbac" />
+        <module name="springmvc03-jsp" />
+        <module name="springboot02" />
+        <module name="spring-data-redis-userdemo-annotation" />
+        <module name="springboot-demo" />
+        <module name="spring06-proxy" />
         <module name="spring10-aop-tx-xml-annotation" />
         <module name="spring04-anotation" />
+        <module name="springsecurity-quickstart" />
+        <module name="ssm-demo" />
+        <module name="spring09-aop-tx" />
+        <module name="springmvc01-start" />
+        <module name="quartz-start" />
         <module name="spring05-multi-xml" />
         <module name="spring01" />
-        <module name="spring08-aop-annotation" />
         <module name="spring02" />
+        <module name="student-demo" />
+        <module name="spring03" />
+        <module name="jwt-demo" />
+        <module name="springmvc02" />
+        <module name="spring-data-redis-userdemo" />
+        <module name="springboot-mybatis" />
+        <module name="springsecurity-demo" />
+        <module name="spring-quartz-demo" />
+        <module name="redis-springboot02" />
+        <module name="springboot-quartz" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spring04-config" target="1.8" />
-      <module name="spring05-config" target="1.8" />
-      <module name="spring10-aop-tx-xml" target="1.8" />
-    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="redis-springboot" options="-parameters" />
+      <module name="redis-springboot02" options="-parameters" />
+      <module name="spring-data-redis-userdemo" options="-parameters" />
+      <module name="spring-data-redis-userdemo-annotation" options="-parameters" />
+      <module name="springboot-demo" options="-parameters" />
+      <module name="springboot-mybatis" options="-parameters" />
+      <module name="springboot-mybatisplus" options="-parameters" />
+      <module name="springboot-quartz" options="-parameters" />
+      <module name="springboot02" options="-parameters" />
+      <module name="springsecurity-demo" options="-parameters" />
+      <module name="springsecurity-quickstart" options="-parameters" />
+      <module name="springsecurity-rbac" options="-parameters" />
+    </option>
   </component>
 </project>

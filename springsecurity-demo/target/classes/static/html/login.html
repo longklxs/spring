@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>验证码</title>
+</head>
+<script type="text/javascript" src="/js/axios-0.20.0.js"></script>
+<script type="text/javascript">
+    window.onload = function(){
+        document.querySelector("#ajaxLogin").onclick = function (){
+            let username = document.querySelector("#jsonUsername").value;
+            let password = document.querySelector("#jsonPassword").value;
+            let user = {"username":username,"password":password}
+            axios.post("/login",user).then(resp => {
+               alert(JSON.stringify(resp.data))
+                if(resp.data.code === 200){
+                    alert("hh");
+                    window.location.href = "/html/user.html";
+                }
+                if(resp.data.code === 500){
+                    window.location.href = "/html/loginFail.html";
+                }
+            });
+        }
+    }
+</script>
+<body>
+<form action="/login" method="post">
+    用户名: <input name="username" type="text"><br>
+    密码: <input name="password" type="password"><br>
+    <input type="submit" value="提交">
+</form>
+<hr/>
+用户名: <input id="jsonUsername" type="text"><br>
+密码: <input id="jsonPassword" type="text"><br>
+<a href="#" id="ajaxLogin">ajax登录提交json数据</a>
+</body>
+</html>

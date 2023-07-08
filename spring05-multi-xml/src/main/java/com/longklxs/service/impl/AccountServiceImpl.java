@@ -3,8 +3,6 @@ package com.longklxs.service.impl;
 import com.longklxs.dao.AccountDao;
 import com.longklxs.domain.Account;
 import com.longklxs.service.AccountService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 
 public class AccountServiceImpl implements AccountService {

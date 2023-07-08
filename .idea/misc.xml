@@ -4,6 +4,9 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/springmvc01-start" />
     <file type="web" url="file://$PROJECT_DIR$/springmvc02" />
+    <file type="web" url="file://$PROJECT_DIR$/springmvc03-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/ssm-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/student-demo" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -13,6 +16,19 @@
         <option value="$PROJECT_DIR$/spring04-config/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc01-start/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc02/pom.xml" />
+        <option value="$PROJECT_DIR$/ssm-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/student-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot02/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/redis-springboot02/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-data-redis-userdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity-quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springsecurity-rbac/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-quartz/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
@@ -21,7 +37,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

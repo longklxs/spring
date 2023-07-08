@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: redis_demo
+  data:
+    redis:
+      database: 0
+      port: 6379
+      host: localhost
+      jedis:
+        pool:
+          enabled: true
+          max-wait: "100ms"
+          max-idle: 8
+          min-idle: 0
+          max-active: 8
